@@ -1,0 +1,47 @@
+.home-page {
+  text-align: center;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* Align cards to start from the left */
+}
+
+.card {
+  width: calc(33.33% - 10px); /* Adjust width to fit three cards in a row with no margins */
+  margin-right: 10px; /* Add margin only to create space between cards */
+  margin-bottom: 10px; /* Add margin to create space between rows of cards */
+  position: relative;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: white;
+  font-size: 12px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.card-text {
+  padding: 10px;
+}
+
+.show-more-button {
+  margin-top: 20px;
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}

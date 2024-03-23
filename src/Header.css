@@ -1,0 +1,32 @@
+.header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between; /* Distribute space evenly between items */
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    flex: 0 0 auto; /* Prevent logo from shrinking or growing */
+  }
+  
+  .logo img {
+    height: 40px; /* Adjust the height as needed */
+  }
+  
+  .nav-left ul,
+  .nav-right ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-left ul li,
+  .nav-right ul li {
+    display: inline;
+    margin-right: 20px;
+    cursor: pointer;
+    color: grey;
+  }
+  
